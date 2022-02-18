@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Таблица</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <table class="table table_sort" >
+        <thead id="tableHead">
+            <tr class="sortable-tr">
+                <th class="ths firstname" data-type="string">Имя</th>
+                <th class="ths lastname" data-type="string">Фамилия</th>
+                <th class="ths about" data-type="string">Описание</th>
+                <th class="ths eyecolor" data-type="string">Цвет глаз</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody" class="tbody">
+        </tbody>
+    </table>
+    <!-- <div id="myData"></div> -->
+
+    <div class="form-container invisible">
+        <form action="" class='form'>
+            <p>Имя: <input type="text" class="edit_name"></p>
+            <p>Фамилия: <input type="text" class="edit_surname"></p>
+            <p>Описание: <textarea name="about" cols="30" rows="5" class="edit_about"></textarea></p>
+            <p>Цвет глаз: <input type="text" class="edit_color"></p>
+          </form>
+          <button class='btn-edit'>Редактировать</button>
+          <button class='btn-close'>Отмена</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

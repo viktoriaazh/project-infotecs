@@ -1,0 +1,22 @@
+#tableBody {
+    background-color: beige;
+}
+
+.table {
+    width:50%;
+    border: 3px solid black;
+    border-collapse: collapse;
+     margin-left: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.firstname,
+.lastname,
+.eyecolor{
+  width: 15%;
+}
+
+td, th {
+    border: 3px solid black;
+}
